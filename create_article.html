@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/67b1fb20cf.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/coin.jpg"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Gauthier</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="headband">
+            <img id="logo" src="assets/img/coin.jpg" alt="logo">
+            <h1>Blog Gauthier</h1>
+            <label id="label" for="navmenu"><span class="icon-menu"><i class="fas fa-hamburger"></i></span></label>
+        </div>
+    
+        <input type="checkbox" id="navmenu" />
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a class="button" href="index.html">Accueil</a></li>
+                    <li><a class="button" href="blog.html">Blog</a></li>
+                    <li><a class="button" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+
+        <div class="container5">
+            <h2>Creer un article</h2>
+            <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-50">
+                    <label for="tarticle">Titre de l'article</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="tarticle" name="tarticle" placeholder="Votre titre...">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-50">
+                    <label for="iarticle">Image de l'article</label>
+                  </div>
+                  <div class="col-75" style="border: 1px solid #AAA492; padding: 7px;">
+                    <input type="file" id="iarticle" name="iarticle" placeholder="Votre image...">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-50">
+                    <label for="description">Description</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="description" name="description" placeholder="Description de votre article..." style="min-height:210px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+            </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+            
+        <ul>
+            <li>© - all right reserved</li>
+            <li>Blog Gauthier 2021-2022</li>
+            <li><a href="mentions.html">Mentions legales</a></li>
+        </ul>
+
+    </footer>
+    <!-- FOOTER END-->
+
+</body>
+</html>

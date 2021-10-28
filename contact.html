@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/67b1fb20cf.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/coin.jpg"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Gauthier</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="headband">
+            <img id="logo" src="assets/img/coin.jpg" alt="logo">
+            <h1>Blog Gauthier</h1>
+            <label id="label" for="navmenu"><span class="icon-menu"><i class="fas fa-hamburger"></i></span></label>
+        </div>
+    
+        <input type="checkbox" id="navmenu" />
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a class="button" href="index.html">Accueil</a></li>
+                    <li><a class="button" href="blog.html">Blog</a></li>
+                    <li><a class="button" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+
+        <div class="container5">
+            <h2>Contactez nous!</h2>
+            <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="uname">Votre nom</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="uname" name="uname" placeholder="Entrez votre nom...">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                      <label for="tuser">Vous êtes</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="tuser" name="tuser">
+                        <option value="particulier">Un particulier</option>
+                        <option value="recruteur">Un recruteur</option>
+                        <option value="eleve">Un eleve</option>
+                      </select>
+                    </div>
+                  </div>
+                <div class="row">
+                  <div class="col-50">
+                    <label for="question">Votre question</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="question" name="question" placeholder="Posez votre question ici..." style="min-height:210px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="iframe-rwd">
+                <iframe width="100%" height="700px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Seattle,+WA&amp;aq=0&amp;oq=seattle&amp;sll=37.822293,-85.76824&amp;sspn=6.628688,16.907959&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Seattle,+King,+Washington&amp;z=11&amp;ll=47.60621,-122.332071&amp;output=embed"></iframe>
+        </div>    
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+            
+        <ul>
+            <li>© - all right reserved</li>
+            <li>Blog Gauthier 2021-2022</li>
+            <li><a href="mentions.html">Mentions legales</a></li>
+        </ul>
+
+    </footer>
+    <!-- FOOTER END-->
+
+</body>
+</html>
